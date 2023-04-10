@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "lib": ["esnext"],
+    "target": "es5",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "parserOptions": {
+    "project": [".eslintrc.cjs"]
+  },
+  "ts-node": {
+    "swc": true
+  },
+  "include": ["./src/**/*", ".eslintrc.cjs"],
+  "exclude": ["node_modules", "__tests__"]
+}
